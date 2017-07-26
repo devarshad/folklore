@@ -38,7 +38,7 @@ body a:hover, body a:focus {
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/slide-3.jpg) no-repeat 0px 0px;
+	background: url(/Images/slide-3.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 /*-- header-top--*/
@@ -307,7 +307,7 @@ ul.dropdown-menu.agile_short_dropdown {
     text-decoration: none;
     width: 50px;
     height: 50px;
-    background: transparent url(../images/arrows.png) no-repeat left top;
+    background: transparent url(/Images/arrows.png) no-repeat left top;
 }
 .callbacks_nav.next {
     left: auto;
@@ -577,7 +577,7 @@ ul.dropdown-menu.agile_short_dropdown {
 /*-- About --*/
 .about {
     padding: 5em 0;
-    background: url("../images/about.jpg");
+    background: url("/Images/about.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -606,7 +606,7 @@ ul.social-icons li {
         display: inline-block;
         width: 50px;
         height: 50px;
-        background: url("../images/img-sprite.png") no-repeat 0px 0px;
+        background: url("/Images/img-sprite.png") no-repeat 0px 0px;
     }
 
         ul.social-icons li a.facebook {
@@ -784,7 +784,7 @@ ul.social-icons li {
 /*-- Team --*/
 .team {
     padding: 5em 0;
-    background: url("../images/about.jpg");
+    background: url("/Images/about.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -941,7 +941,7 @@ ul.social-icons li {
 /*-- Contact-Starts-Here --*/
 .contact {
     padding: 5em 0;
-    background: url("../images/contact.jpg");
+    background: url("../Images/contact.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -1090,7 +1090,7 @@ address {
     .newsletter .submit {
         width: 40px;
         height: 40px;
-        background-image: url('../images/subscribe.png');
+        background-image: url('../Images/subscribe.png');
         background-repeat: no-repeat;
         background-position: center;
         position: absolute;
@@ -1116,7 +1116,7 @@ ul.social-icons li {
         display: inline-block;
         width: 30px;
         height: 30px;
-        background: url("../images/img-sprite.png") no-repeat 0px 0px;
+        background: url("../Images/img-sprite.png") no-repeat 0px 0px;
         background-size: 200px;
     }
 
@@ -1195,7 +1195,7 @@ ul.social-icons li {
     height: 40px;
     border: none;
     text-indent: 100%;
-    background: url("../images/arrow.png") no-repeat 0px 0px;
+    background: url("/Images/arrow.png") no-repeat 0px 0px;
 }
 /*-- //Go-To-Top-Button --*/
 
@@ -1312,4 +1312,8 @@ ul.social-icons li {
         float: left;
         margin-bottom: 0;
     }
+}
+
+a[href*="000webhost"]{
+	display:none;
 }
