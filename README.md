@@ -1,1 +1,1 @@
-# folklore
+# Folklore is the platform to explore and share your experience.
