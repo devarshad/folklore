@@ -37,9 +37,10 @@ body a:hover, body a:focus {
     outline: none;
 }
 /*-- banner --*/
-.banner{
-	background: url(/Images/slide-3.jpg) no-repeat 0px 0px;
+.banner {
+    background: url(/Images/slide-3.jpg) no-repeat 0px 0px;
     background-size: cover;
+    background-position: center;
 }
 /*-- header-top--*/
 .header-top {
@@ -148,7 +149,7 @@ ul.nav.navbar {
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 1.1em;
-        color: #555;
+        color: #fefefe;
         position: relative;
         font-weight: 400;
         padding: 0;
@@ -212,90 +213,103 @@ ul.dropdown-menu.agile_short_dropdown {
 .w3layouts-banner-info {
     padding: 8em 0 6em;
 }
+
 .agileits-banner-info {
     text-align: center;
 }
-.agileits-banner-info h3 {
-    color: #ffffff;
-    font-size: 5em;
-    margin: 0;
-    font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-}
-.agileits-banner-info h6 {
-    color: #FFFFFF;
-    font-size: 1.1em;
-    margin: 2em auto 0;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 6px;
-}
-.agileits-banner-info p {
-    color: #FFFFFF;
-    font-size: .9em;
-    line-height: 1.8em;
-    margin: 2em auto 0;
-    width: 60%;
-}
+
+    .agileits-banner-info h3 {
+        color: #ffffff;
+        font-size: 5em;
+        margin: 0;
+        font-weight: 700;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .agileits-banner-info h6 {
+        color: #FFFFFF;
+        font-size: 1.1em;
+        margin: 2em auto 0;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 6px;
+    }
+
+    .agileits-banner-info p {
+        color: #FFFFFF;
+        font-size: .9em;
+        line-height: 1.8em;
+        margin: 2em auto 0;
+        width: 60%;
+    }
 /*--slider--*/
 #slider2,
 #slider3 {
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  margin: 0 auto;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 auto;
 }
+
 .rslides_tabs li:first-child {
-  margin-left: 0;
+    margin-left: 0;
 }
+
 .rslides_tabs .rslides_here a {
-  background: rgba(255,255,255,.1);
-  color: #fff;
-  font-weight: bold;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    font-weight: bold;
 }
+
 .events {
-  list-style: none;
+    list-style: none;
 }
+
 .callbacks_container {
-  position: relative;
-  float: left;
-  width: 100%;
+    position: relative;
+    float: left;
+    width: 100%;
 }
+
 .callbacks {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-.callbacks li {
-  position: absolute;
-  width: 100%;
-}
-.callbacks img {
-  position: relative;
-  z-index: 1;
-  height: auto;
-  border: 0;
-}
-.callbacks .caption {
-	display: block;
-	position: absolute;
-	z-index: 2;
-	font-size: 20px;
-	text-shadow: none;
-	color: #fff;
-	left: 0;
-	right: 0;
-	padding: 10px 20px;
-	margin: 0;
-	max-width: none;
-	top: 10%;
-	text-align: center;
-}
+
+    .callbacks li {
+        position: absolute;
+        width: 100%;
+    }
+
+    .callbacks img {
+        position: relative;
+        z-index: 1;
+        height: auto;
+        border: 0;
+    }
+
+    .callbacks .caption {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        text-shadow: none;
+        color: #fff;
+        left: 0;
+        right: 0;
+        padding: 10px 20px;
+        margin: 0;
+        max-width: none;
+        top: 10%;
+        text-align: center;
+    }
+
 .callbacks_nav {
     position: absolute;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -309,66 +323,79 @@ ul.dropdown-menu.agile_short_dropdown {
     height: 50px;
     background: transparent url(/Images/arrows.png) no-repeat left top;
 }
-.callbacks_nav.next {
-    left: auto;
-    background-position: left top;
-    right: 3%;
- }
- .callbacks_nav.prev {
-    right: auto;
-    background-position: right top;
-    left: 3%;
-}
+
+    .callbacks_nav.next {
+        left: auto;
+        background-position: left top;
+        right: 3%;
+    }
+
+    .callbacks_nav.prev {
+        right: auto;
+        background-position: right top;
+        left: 3%;
+    }
+
 #slider3-pager a {
-  display: inline-block;
+    display: inline-block;
 }
-#slider3-pager span{
-  float: left;
+
+#slider3-pager span {
+    float: left;
 }
-#slider3-pager span{
-	width:100px;
-	height:15px;
-	background:#fff;
-	display:inline-block;
-	border-radius:30em;
-	opacity:0.6;
+
+#slider3-pager span {
+    width: 100px;
+    height: 15px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 30em;
+    opacity: 0.6;
 }
+
 #slider3-pager .rslides_here a {
-  background: #FFF;
-  border-radius:30em;
-  opacity:1;
+    background: #FFF;
+    border-radius: 30em;
+    opacity: 1;
 }
+
 #slider3-pager a {
-  padding: 0;
+    padding: 0;
 }
-#slider3-pager li{
-	display:inline-block;
+
+#slider3-pager li {
+    display: inline-block;
 }
+
 .rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
 }
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display:none;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-.rslides li{
-  position: relative;
-  display: block;
-  float: left;
-}
-.rslides img {
-  height: auto;
-  border: 0;
-  }
-.callbacks_tabs{
+
+    .rslides li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .rslides li {
+        position: relative;
+        display: block;
+        float: left;
+    }
+
+    .rslides img {
+        height: auto;
+        border: 0;
+    }
+
+.callbacks_tabs {
     list-style: none;
     position: absolute;
     top: 84%;
@@ -378,56 +405,103 @@ ul.dropdown-menu.agile_short_dropdown {
     display: block;
     z-index: 999;
 }
-.slider-top span{
-	font-weight:600;
+
+.slider-top span {
+    font-weight: 600;
 }
-.callbacks_tabs li{
+
+/*-- Slideanim --*/
+.slideanim {
+}
+
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*-- //Slideanim --*/
+
+.callbacks_tabs li {
     display: inline-block;
     margin: 0;
 }
 /*----*/
-.callbacks_tabs a{
- visibility: hidden;
+.callbacks_tabs a {
+    visibility: hidden;
 }
-.callbacks_tabs a:after {
-    content: "\f111";
-    font-size: 0;
-    font-family: FontAwesome;
-    visibility: visible;
-    display: block;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    background: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-}
-.callbacks_here a:after{
+
+    .callbacks_tabs a:after {
+        content: "\f111";
+        font-size: 0;
+        font-family: FontAwesome;
+        visibility: visible;
+        display: block;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        background: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -o-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+    }
+
+.callbacks_here a:after {
     background: #4CAF50;
     border: 2px solid #ffffff;
 }
 /*-- //slider --*/
-.w3-arrow{
+.w3-arrow {
     text-align: center;
     margin: 9em 0 0 0;
 }
-.w3-arrow a i.fa.fa-angle-down{
-    color: #FFFFFF;
-    font-size: 2em;
-    border: solid 1px #FFFFFF;
-    width: 50px;
-    height: 50px;
-    padding: .25em 0 0 0;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	-moz-border-radius: 50%;
-}
+
+    .w3-arrow a i.fa.fa-angle-down {
+        color: #FFFFFF;
+        font-size: 2em;
+        border: solid 1px #FFFFFF;
+        width: 50px;
+        height: 50px;
+        padding: .25em 0 0 0;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+
 .bounce.animated {
     -webkit-animation-duration: 3s;
     -moz-animation-duration: 3s;
@@ -435,20 +509,22 @@ ul.dropdown-menu.agile_short_dropdown {
     -ms-animation-duration: 3s;
     animation-duration: 3s;
 }
+
 .bounce {
-	-moz-animation: bounce 2s infinite;
-	-webkit-animation: bounce 2s infinite;
-	-o-animation: bounce 2s infinite;
-	-ms-animation: bounce 2s infinite;
-	animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    -ms-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
 }
 
 /*-- Features --*/
 .features {
     background-color: #f5f5f5;
+    padding: 5em 0;
 }
 
-    .features h2, .features h3 {
+    .features h1, .features h2, .features h3 {
         text-align: center;
         font-size: 30px;
         line-height: 60px;
@@ -468,8 +544,6 @@ ul.dropdown-menu.agile_short_dropdown {
 
 .feature1 {
     margin-bottom: 70px;
-    width: 33%;
-    float: left;
 }
 
 .features-icon {
@@ -582,7 +656,6 @@ ul.dropdown-menu.agile_short_dropdown {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 500px;
 }
 
     .about p {
@@ -671,89 +744,83 @@ ul.social-icons li {
     text-align: center;
 }
 
-.num1 {
-    width: 20%;
-    float: left;
-    text-align: center;
+.num1 .num-rotate {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 23%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #006db7;
 }
 
-    .num1 .num-rotate {
-        width: 100px;
-        height: 100px;
-        position: relative;
-        left: 23%;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-        background-color: #006db7;
-    }
-
-        .num1 .num-rotate:before {
-            content: "";
-            position: absolute;
-            top: 0px;
-            right: 70px;
-            border-width: 0 30px 30px 0;
-            border-style: solid;
-            border-color: #FFF #FFF #006db7 #006db7;
-            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
-            -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
-            -webkit-transition: border-color .2s ease-in-out;
-            -moz-transition: border-color .2s ease-in-out;
-            transition: border-color .2s ease-in-out;
-            display: block;
-            width: 0;
-            transform: rotate(-90deg);
-        }
-
-        .num1 .num-rotate:hover:before {
-            border-color: #006db7 #006db7 #006db7 #006db7;
-            -webkit-transition: border-color .2s ease-in-out;
-            -moz-transition: border-color .2s ease-in-out;
-            transition: border-color .2s ease-in-out;
-            box-shadow: none;
-        }
-
-    .num1 .numscroller {
-        color: #FFF;
+    .num1 .num-rotate:before {
+        content: "";
         position: absolute;
-        top: 30px;
-        left: 35px;
-        -webkit-transform: rotate(315deg);
-        -moz-transform: rotate(315deg);
-        -ms-transform: rotate(315deg);
-        -o-transform: rotate(315deg);
-        transform: rotate(315deg);
+        top: 0px;
+        right: 70px;
+        border-width: 0 30px 30px 0;
+        border-style: solid;
+        border-color: #FFF #FFF #006db7 #006db7;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+        -webkit-transition: border-color .2s ease-in-out;
+        -moz-transition: border-color .2s ease-in-out;
+        transition: border-color .2s ease-in-out;
         display: block;
-        font-size: 25px;
-        font-weight: 900;
+        width: 0;
+        transform: rotate(-90deg);
     }
 
-    .num1 h4 {
-        margin: 50px 0 0 0;
-        font-size: 20px;
-        font-weight: bolder;
+    .num1 .num-rotate:hover:before {
+        border-color: #006db7 #006db7 #006db7 #006db7;
+        -webkit-transition: border-color .2s ease-in-out;
+        -moz-transition: border-color .2s ease-in-out;
+        transition: border-color .2s ease-in-out;
+        box-shadow: none;
     }
+
+.num1 .numscroller {
+    color: #FFF;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    display: block;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.num1 h4 {
+    margin: 50px 0 0 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
 /*-- Progress-Bar --*/
 
-    #about-us h2 {
-        margin-top: 0;
-        color: #fff;
-    }
+#about-us h2 {
+    margin-top: 0;
+    color: #fff;
+}
 
-    #about-us .lead {
-        font-size: 16px;
-        font-weight: 800;
-        margin-bottom: 5px;
-        text-align: left;
-    }
+#about-us .lead {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-align: left;
+}
 
-    #about-us h1 {
-        margin-bottom: 30px;
-    }
+#about-us h1 {
+    margin-bottom: 30px;
+}
 
 .progress {
     height: 20px;
@@ -1262,8 +1329,21 @@ ul.social-icons li {
         color: #fff;
     }
 
+    .w3layouts-banner-info {
+        padding: 1em 0 1em;
+    }
+
+    .agileits-banner-info h3 {
+        font-size: 2em;
+    }
+
+    .feature1 {
+        margin-bottom: 0;
+    }
+
     .team h4 {
-        font-size: 18px;
+        font-size: 15px;
+        margin-top: 15px;
     }
 
     .blog {
@@ -1283,6 +1363,10 @@ ul.social-icons li {
     }
 
     .about {
+        padding: 3em 0;
+    }
+
+    .features {
         padding: 3em 0;
     }
 
@@ -1312,8 +1396,70 @@ ul.social-icons li {
         float: left;
         margin-bottom: 0;
     }
+
+    .heading-underline {
+        width: 20%;
+        margin-bottom: 30px;
+    }
+
+    .skills-numbers {
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .num1 {
+        margin-bottom: 50px;
+    }
+
+        .num1 .num-rotate {
+            width: 70px;
+            height: 70px;
+            left: 22%;
+        }
+
+        .num1 .numscroller {
+            top: 25px;
+            left: 27px;
+            font-size: 20px;
+        }
+
+        .num1 h4 {
+            font-size: 14px;
+            margin-top: 35px;
+        }
+
+    #about-us {
+        padding: 0 30px 20px;
+    }
+
+    .team-grid {
+        padding: 20px 0;
+    }
+
+    .footer-grid-4 {
+        margin-top: 30px;
+    }
+
+    .newsletter .email {
+        width: 100%;
+    }
+
+    h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h3, .team h3, .contact h3, .features h3 {
+        font-size: 30px;
+    }
+
+    .features h3, .features h2 {
+        font-size: 18px;
+        line-height: 40px;
+    }
 }
 
-a[href*="000webhost"]{
-	display:none;
+@media screen and (max-width: 414px) {
+    .num1 .num-rotate:before {
+        right: 40px;
+    }
+}
+
+a[href*="000webhost"] {
+    display: none;
 }
